@@ -1,0 +1,35 @@
+site_name: Ten Simple Rules for Achieving Computational Reproducibility in Cognitive Neuroscience
+site_description: Supporting information and implementation guidance for the ten simple rules.
+
+theme:
+  name: material
+  features:
+    - navigation.sections
+    - navigation.top
+    - content.code.copy
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+nav:
+  - Home: index.md
+  - Rule 1 - Structure the project: rule-01-project-structure.md
+  - Rule 2 - Version control: rule-02-version-control.md
+  - Rule 3 - Document as you build: rule-03-documentation.md
+  - Rule 4 - Reusable code: rule-04-reusable-code.md
+  - Rule 5 - Freeze the environment: rule-05-environment.md
+  - Rule 6 - Automate workflows: rule-06-automation.md
+  - Rule 7 - AI task boundaries: rule-07-ai-boundaries.md
+  - Rule 8 - Names and metadata: rule-08-names-metadata.md
+  - Rule 9 - Analytic inputs and outputs: rule-09-analysis-data.md
+  - Rule 10 - Reproducibility as a lab default: rule-10-lab-defaults.md
+  - Source notes: source-notes.md
